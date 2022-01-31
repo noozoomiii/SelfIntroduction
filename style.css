@@ -116,6 +116,7 @@ a{
     justify-content: center;
     align-items: center;
     padding-bottom: 50px;
+    padding-top: 40px;
 }
 
 .profile{
@@ -128,23 +129,40 @@ a{
 }
 
 .profile-headline{
-    font-family: 'Luckiest Guy', cursive;
-    font-size: 30px;
-}
-
-.profile-headline li{
-    line-height: 2em;
-}
-
-.profile-text{
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 20px;
     margin-bottom: 10px;
+    /* font-family: 'Luckiest Guy', cursive;
+    font-size: 30px; */
+    width: 100%;
+    text-align: center;
+    
 }
 
-.profile-text li{
-    line-height: 3.1em;
+
+
+.profile-headline li{
+    line-height: 2em;
+    
+    
 }
+
+.profile-headline span{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 30px;
+    text-align: end;
+    margin-right: 8px;
+}
+
+/* .profile-text{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+} */
+
+/* .profile-text li{
+    line-height: 3.1em;
+} */
 
 
 
@@ -248,7 +266,6 @@ a{
     }
 
     .header{
-        height: 80vh;
         width: 100%;
     }
 
@@ -285,12 +302,24 @@ a{
         padding-bottom: 15px;
     }
 
-    .profile-headline{
+    /* .profile-headline{
         font-size: 18px;
+    } */
+
+
+    /* .profile-text{
+        font-size: 12px; 
+    } */
+
+
+    .profile-headline span{
+        display: inherit;
+        text-align: center;
     }
 
-    .profile-text{
-        font-size: 12px; 
+    .profile-headline li{
+        line-height: 1.5em;
+        margin-bottom: 20px;
     }
 
     .profile ul{
