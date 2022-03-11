@@ -1,5 +1,5 @@
 .header{
-    background-image: url(./5365F639-B3D6-42C5-BE79-0B73896AFDC7.JPG);
+    background-image: url("../img/ny.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -105,12 +105,6 @@ a{
     margin-right: 50px;
 }
 
-/* .icon-face{
-    font-size: 250px;
-    margin-right: 50px;
-    color: tomato;
-} */
-
 .about-me-content{
     display: flex;
     justify-content: center;
@@ -132,19 +126,15 @@ a{
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 20px;
     margin-bottom: 10px;
-    /* font-family: 'Luckiest Guy', cursive;
-    font-size: 30px; */
+    font-size: 30px;
     width: 100%;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 
 
 .profile-headline li{
     line-height: 2em;
-    
-    
 }
 
 .profile-headline span{
@@ -396,4 +386,17 @@ a{
     #hamburger:checked ~ .header-right{
         right: 0;
     }
+}
+
+
+input,label{
+    display: block;
+}
+
+#name{
+    width: 100px;
+}
+
+#email{
+    width: 200px;
 }
